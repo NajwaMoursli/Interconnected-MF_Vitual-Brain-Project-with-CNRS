@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-06-01" view-index="0" gantt-divider-location="296" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd11" name="Numéro hiérarchique" width="38" order="0"/>
+        <field id="tpd3" name="Nom" width="239" order="1"/>
+        <timeline>
+            <![CDATA[21,9,99,14,0]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#00ff99 #009999 #9900ff #33ffff #66ccff #33ccff #00ccff #ff3399 #ff3366 #0033ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="0" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="99" name="Project management" color="#0033ff" meeting="false" start="2021-06-15" duration="27" complete="89" thirdDate="2021-06-15" thirdDate-constraint="0" expand="true">
+            <task id="100" name="Specifications &amp; Requirements" color="#0033ff" meeting="false" start="2021-06-15" duration="5" complete="75" thirdDate="2019-09-17" thirdDate-constraint="0" expand="true"/>
+            <task id="101" name="Project Plan" color="#0033ff" meeting="false" start="2021-06-15" duration="12" complete="100" thirdDate="2019-09-17" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Risks Management" color="#0033ff" meeting="false" start="2021-08-03" duration="5" complete="70" thirdDate="2019-09-17" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="106" name="Final Report" color="#0033ff" meeting="false" start="2021-06-15" duration="25" complete="100" thirdDate="2019-10-01" thirdDate-constraint="0" expand="true"/>
+            <task id="109" name="Final Presentation" color="#0033ff" meeting="false" start="2021-11-30" duration="3" complete="10" thirdDate="2020-02-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="0" name="Acquisition" color="#00ccff" meeting="false" start="2021-07-06" duration="3" complete="98" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Knowledge" color="#66ccff" meeting="false" start="2021-07-06" duration="3" complete="98" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+                <task id="5" name="Neuroscience Fundamentals" color="#66ccff" meeting="false" start="2021-07-06" duration="3" complete="100" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="179" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="7" name="State-of-the-Art Methods" color="#66ccff" meeting="false" start="2021-07-06" duration="3" complete="95" thirdDate="2019-10-29" thirdDate-constraint="0" priority="2" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="179" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="8" name="Brain2 Simulator language" color="#66ccff" meeting="false" start="2021-07-06" duration="2" complete="100" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+                    <depend id="3" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="1" name="Hardware" color="#33ffff" meeting="false" start="2021-07-20" duration="1" complete="100" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+                <task id="3" name="Brian2 Simulator" color="#33ffff" meeting="false" start="2021-07-20" duration="1" complete="100" thirdDate="2019-10-29" thirdDate-constraint="0" expand="true">
+                    <depend id="179" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="9" name="Modelling" color="#9900ff" meeting="false" start="2021-07-27" duration="5" complete="100" thirdDate="2019-10-01" thirdDate-constraint="0" expand="true">
+            <task id="10" name="Mean-Field Structure" color="#9900ff" meeting="false" start="2021-07-27" duration="5" complete="100" thirdDate="2019-10-01" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="179" name="AdEx Structure" color="#9900ff" meeting="false" start="2021-07-27" duration="3" complete="100" thirdDate="2019-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="14" name="Simulation" color="#009999" meeting="false" start="2021-08-31" duration="9" complete="100" thirdDate="2019-11-12" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="19" name="RS-FS model" color="#009999" meeting="false" start="2021-08-31" duration="4" complete="100" thirdDate="2019-11-26" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Interconnected models" color="#009999" meeting="false" start="2021-09-28" duration="5" complete="100" thirdDate="2019-12-10" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="21" name="Testing &amp; Validation" color="#00ff99" meeting="false" start="2021-11-02" duration="7" complete="12" thirdDate="2019-12-10" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="22" name="Interconnected AdEx" color="#00ff99" meeting="false" start="2021-11-02" duration="3" complete="30" thirdDate="2019-11-12" thirdDate-constraint="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="TVB correspondence" color="#00ff99" meeting="false" start="2021-11-23" duration="2" complete="0" thirdDate="2019-11-12" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Improvements" color="#00ff99" meeting="false" start="2021-12-07" duration="2" complete="0" thirdDate="2019-11-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="2" name="Najwa" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Villers" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Destexhe" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Depannmaecker" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Carlu" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="102" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="101" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
