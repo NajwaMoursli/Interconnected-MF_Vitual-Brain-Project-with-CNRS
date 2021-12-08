@@ -1,6 +1,5 @@
-#### stage_cnrs
+## Stage CNRS : Interconnected-Mean-Fields and their repertoires
 
-## Interconnected-Mean-Fields
 
 Research project made with **The UNIC-CNRS (http://cns.iaf.cnrs-gif.fr/) research team inspired by the Virtual Brain Approach (https://www.thevirtualbrain.org/)** during my MEng internship at **Polytech-Sorbonne** 
 ![alt text](https://github.com/NajwaMoursli/Interconnected-Mean-Fields/blob/master/polytech_sorbonne_T.png?raw=true)
